@@ -9,6 +9,7 @@ Jinja2==3.1.2
 jsonschema==4.17.3
 MarkupSafe==2.1.1
 pyrsistent==0.19.2
+pytest==7.2.0
 pytz==2022.6
 six==1.16.0
 Werkzeug==2.2.2
