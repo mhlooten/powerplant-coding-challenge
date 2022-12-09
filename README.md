@@ -6,3 +6,6 @@ Payloads can be POSTed on the */productionplan* endpoint (http://localhost:8888/
 
 The python version used for development is Python 3.11.1
 
+## Testing
+There are several unit tests available, which mainly test the API (input) restrictions.  
+To run the tests, first run the backend as explained above, then run the tests with `pytest .\tests\unittest.py`.
