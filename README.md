@@ -13,8 +13,8 @@ To run the tests, first run the backend as explained above, then run the tests w
 
 ## Structure
 main.py --> Creation of the Flask app  
-Rest/productionplan.py --> Productionplan endpoint
-Algorithms/Solver.py --> Algorithm to find the power for each factory
-Objects/ --> Folder with the powerplant object/factory. The factories in the json document are converted into objects for easier use during the algorithm.
+Rest/productionplan.py --> Productionplan endpoint  
+Algorithms/Solver.py --> Algorithm to find the power for each factory  
+Objects/ --> Folder with the powerplant object/factory. The factories in the json document are converted into objects for easier use during the algorithm.  
 tests/unittest.py --> Several unit tests to check the response of the API with different payloads
 
