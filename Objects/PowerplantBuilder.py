@@ -2,6 +2,8 @@ from Objects.Powerplant import Powerplant, Gas, Turbojet, Wind
 
 #Builder for powerplants depending on type
 class PowerplantBuilder():
+    
+    @staticmethod
     def build_powerplant(name, type, efficiency, pmin, pmax, fuels):
         if type == "gasfired":
             return Gas(name, type, efficiency, pmin, pmax, fuels)

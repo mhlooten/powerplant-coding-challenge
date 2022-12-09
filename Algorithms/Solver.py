@@ -23,9 +23,7 @@ def solve_greedy(powerplants, total_load):
 
     for i, el in enumerate(powerplants):
         p = 0 #Load for this powerplant
-        if current_load == total_load:
-            pass
-        elif el.type == "windturbine":
+        if el.type == "windturbine":
             pactual = round_down(el.pactual)
             if current_load + pactual <= total_load: #Wind turbine can be turned on
                 p = pactual
@@ -56,10 +54,7 @@ def solve_greedy(powerplants, total_load):
                         to_load = to_load - diff
                         diff_total -= diff
                 p = el.pmin
-                total_load += load_value
-
-                
-                
+                total_load += load_value     
         elif el.type == "turbojet": #Turbo can always be turned on, since it does not have a minimum usage load
             p = round_down(min(total_load - current_load, el.pmax))
 
