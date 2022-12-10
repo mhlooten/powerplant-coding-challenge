@@ -18,3 +18,5 @@ Algorithms/Solver.py --> Algorithm to find the power for each factory
 Objects/ --> Folder with the powerplant object/factory. The factories in the json document are converted into objects for easier use during the algorithm.  
 tests/unittest.py --> Several unit tests to check the response of the API with different payloads
 
+## Docker
+For an implementation using docker, please refer to the 'docker' branch
